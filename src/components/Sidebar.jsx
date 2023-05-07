@@ -10,6 +10,7 @@ import EmailIcon from '@mui/icons-material/Email';
 import DynamicFeedIcon from '@mui/icons-material/DynamicFeed';
 import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
 import ManageAccountsIcon from '@mui/icons-material/ManageAccounts';
+import CategoryIcon from '@mui/icons-material/Category';
 import { Link } from 'react-router-dom'
 function Sidebar() {
     return (
@@ -18,10 +19,12 @@ function Sidebar() {
                 <div className="sidebarMenu">
                     <h3 className="sidebarTitle">Dashboard</h3>
                     <ul className="sidebarList">
-                        <li className="sidebarListItem">
-                            <LineStyleIcon className='sidebarIcon' />
-                            Home
-                        </li>
+                        <Link to="/" className="link">
+                            <li className="sidebarListItem">
+                                <LineStyleIcon className='sidebarIcon' />
+                                Home
+                            </li>
+                        </Link>
                         <li className="sidebarListItem">
                             <AnalyticsIcon className='sidebarIcon' />
                             Analytics
@@ -39,6 +42,12 @@ function Sidebar() {
                             <li className="sidebarListItem">
                                 <PersonIcon className='sidebarIcon' />
                                 Users
+                            </li>
+                        </Link>
+                        <Link to="/products" className="link">
+                            <li className="sidebarListItem">
+                                <CategoryIcon className='sidebarIcon' />
+                                Products
                             </li>
                         </Link>
                         <li className="sidebarListItem">
