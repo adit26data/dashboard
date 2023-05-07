@@ -9,9 +9,9 @@ This is a react front end for a user admin board. I have used the Recharts libra
 
 ### Preview of the project:
 
-![dash1](https://user-images.githubusercontent.com/98691664/236668930-8f85ab51-d049-4afd-8f1a-259a45d55734.PNG)
-
 ![dash2](https://user-images.githubusercontent.com/98691664/236668935-70e230a8-ebda-4225-94e3-cd1a2ce74c69.PNG)
+
+![dash1](https://user-images.githubusercontent.com/98691664/236668930-8f85ab51-d049-4afd-8f1a-259a45d55734.PNG)
 
 ![dash3](https://user-images.githubusercontent.com/98691664/236668940-7d1e6a7a-a911-477d-bd60-00e8b30c122c.PNG)
 
