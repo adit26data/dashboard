@@ -10,6 +10,7 @@ import EmailIcon from '@mui/icons-material/Email';
 import DynamicFeedIcon from '@mui/icons-material/DynamicFeed';
 import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
 import ManageAccountsIcon from '@mui/icons-material/ManageAccounts';
+import { Link } from 'react-router-dom'
 function Sidebar() {
     return (
         <div className='sidebar'>
@@ -34,10 +35,12 @@ function Sidebar() {
                 <div className="sidebarMenu">
                     <h3 className="sidebarTitle">QuickMenu</h3>
                     <ul className="sidebarList">
-                        <li className="sidebarListItem">
-                            <PersonIcon className='sidebarIcon' />
-                            Users
-                        </li>
+                        <Link to="/users" className="link">
+                            <li className="sidebarListItem">
+                                <PersonIcon className='sidebarIcon' />
+                                Users
+                            </li>
+                        </Link>
                         <li className="sidebarListItem">
                             <PaidIcon className='sidebarIcon' />
                             Transactions
