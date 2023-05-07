@@ -5,7 +5,7 @@ import CelebrationIcon from '@mui/icons-material/Celebration';
 import PhoneIcon from '@mui/icons-material/Phone';
 import ApartmentIcon from '@mui/icons-material/Apartment';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
-import Link from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import PublishOutlinedIcon from '@mui/icons-material/PublishOutlined';
 function User() {
     return (
